@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+   /* font: 14px/22px "ralewayregular", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+   font-size: 14px;
+    color: #888888;
+}
+header .site_logo{
+  margin-top: 40px; 
+  margin-bottom: -40px;
+  z-index: 1;
+}
+.image {
+  background-color: #490d40;
+  background: url("https://baconmockup.com/1400/800") no-repeat center;
+  height: 700px;
+  margin-top: -280px;
+  z-index: 9999;
+}
+.image .heading {
+  color: white;
+  text-align: center;
+  padding-top: 370px;
+  font-size: 40px;
+  font-family: "Cardo";
+}
+.image p {
+    color:white;
+  text-align: center;
+  padding: 20px 60px;
+}
+
+ header .navbar-brand {
+  margin-top: 40px;
+  color: white;
+
+}
+
+header .navbar-default .navbar-nav > li > a {
+  color: white;
+  margin: 10px 5px 5px 5px;
+  font-family:"Raleway";
+  font-size: 18px;
+}
+header .navbar-default .navbar-nav #our_story{
+    margin-right: 200px;
+}
+header .navbar {
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  color: white;
+
+}
+
+ header #navbar{
+    padding-left: 270px;
+}
+
+
+ .centered_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    border-top:  2px solid white;
+    border-bottom:  2px solid white;
+}
+section .food_img{
+    border-radius: 4px;
+    position: relative;
+    height: 300px;
+    background-image: url(../images/food.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    transition: all 600ms;
+    cursor: pointer; 
+}
+.food_img:hover{
+      transform: rotateX(-10deg);  
+}
+.img_holder{
+    -webkit-perspective: 150px;
+     perspective: 150px; 
+}
+
+section .menu{
+    margin-top: 100px;
+    position: relative;
+     background-image: url(../images/background.jpg);
+    height:auto;
+    width: 100%;
+    background-position: center;
+    
+    
+ }
+ .bg_color{
+    width: 100%;
+    height:auto;
+    padding-bottom: 100px;
+    background-color: rgba(41,41,41 , 0.4 );
+ }
+ .menu_img{
+    border-radius: 4px;
+    position: relative;
+    height: 350px;
+    background-image: url(../images/food.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:25px;
+    margin-bottom: 20px;
+
+}
+.row_wrap{
+    margin:0px 20px;
+}
+.food_dis{
+    background-color: black;
+}
+.food_title{
+   line-height :1.3em;
+    font-weight: 500;
+     font-family: "Raleway";
+     font-size: 20px;
+     background-color: black;
+}
+
+.food_content{
+    /*background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));*/
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color:white;
+}
+.effect{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+}
+.wrap{
+
+    padding:10px;
+    padding-top: 0PX;
+}
+section .section-title{
+    letter-spacing: 0.5px;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    line-height :1.3em;
+    font-weight: 700;
+     font-family: "Cardo";
+     font-size: 35px;
+     color: #D1A235;
+}
+.align-section{
+    letter-spacing: 0.5px;
+     font-family: "Raleway";
+     line-height :1.5em;
+    color: #707070;
+    font-weight: 400;
+     font-size:15px;
+     margin:0px 100px ;
+}
+.orange_effect{
+    border: 2px solid #D1A235;
+    width: inherit;
+    padding-right:10px;
+    background: rgba(255, 215, 0,0.5);
+    height: 295px;
+    color: white;
+}
+.imageGrid {
+  line-height: 0;
+}
+.img_wrap{
+    height: 300px;
+}
+
+
+
+.grid-imgs .tile_one {
+     margin-left: -3px;
+  width:25%;
+  height: 400px;
+  line-height: 1.2;
+  display:inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('http://lorempixel.com/640/360');
+  text-shadow: 2px 2px 2px #000;
+  cursor: pointer; 
+  cursor: hand;
+}
+
+.grid-imgs .tile_two {
+ margin-left: -3px;
+  width:50%;
+  height: 400px;
+  line-height: 1.2;
+  display:inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('http://lorempixel.com/640/360');
+  text-shadow: 2px 2px 2px #000;
+  cursor: pointer; 
+  cursor: hand;
+}
+
+.grid-imgs .tile_three {
+    margin-left: -3px;
+  width:25%;
+  height: 400px;
+  line-height: 1.2;
+  display:inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('http://lorempixel.com/640/360');
+  text-shadow: 2px 2px 2px #000;
+  cursor: pointer; 
+  cursor: hand;
+}
+.grid-imgs .sub_two {
+ margin-left: -3px;
+  width:30%;
+  height: 200px;
+  line-height: 1.2;
+  display:inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('http://lorempixel.com/640/360');
+  text-shadow: 2px 2px 2px #000;
+  cursor: pointer; 
+  cursor: hand;
+}
+.grid-imgs .sub_one {
+ margin-left: -3px;
+  width:70%;
+  height: 200px;
+  line-height: 1.2;
+  display:inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('http://lorempixel.com/640/360');
+  text-shadow: 2px 2px 2px #000;
+  cursor: pointer; 
+  cursor: hand;
+}
+.grid-imgs .sub_three{
+ margin-left: -3.5px;
+  width:100%;
+  height: 200px;
+  line-height: 1.2;
+  display:inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('http://lorempixel.com/640/360');
+  overflow: hidden;
+  text-shadow: 2px 2px 2px #000;
+  cursor: pointer; 
+  cursor: hand;
+}
+
+
+ .grid-imgs {
+    position: relative;
+    background-image: url(../images/contact.jpg);
+    min-height:750px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+@media (max-width: 1000px) {
+   .grid-imgs {
+        min-height:1000px;
+    }
+  .grid-imgs .tile_one {
+    width: 50%;
+  }
+  .grid-imgs .tile_two {
+    width: 50%;
+  }
+  .grid-imgs .tile_three {
+    width: 50%;
+  }
+}
+ 
+@media (max-width: 700px) {
+    .grid-imgs {
+        min-height:1500px;
+    }
+   .grid-imgs .tile_one {
+    width: 100%;
+  }
+  .grid-imgs .tile_two {
+    width: 100%;
+  }
+  .grid-imgs .tile_three {
+    width: 100%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+            
